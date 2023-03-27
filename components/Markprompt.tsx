@@ -204,7 +204,7 @@ export const Markprompt: FC<MarkpromptProps> = ({
             type="text"
             onChange={(e) => setPrompt(e.target.value)}
             placeholder={placeholder}
-            className="w-full appearance-none rounded-md border-0 bg-transparent px-0 pt-1 pb-2 outline-none placeholder:text-neutral-500 focus:outline-none focus:ring-0"
+            className="w-full appearance-none rounded-md border-0 bg-transparent px-0 pt-1 pb-2 outline-none focus:outline-none focus:ring-0"
             autoComplete="off"
             autoCorrect="off"
             autoCapitalize="none"
