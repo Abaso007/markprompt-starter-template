@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chat with Apache APISIX Docs</title>
+        <title>Chat with Apache APISIX Docs - Open Source API Gateway</title>
         <meta
           name="description"
           content="The trained Apache APISIX Docs"
@@ -18,6 +18,8 @@ export default function Home() {
         <div className="flex h-screen w-screen items-center justify-center">
           <div className="flex h-[calc(100vh-60px)] w-full flex-col items-center justify-center gap-12 px-8 pt-8 pb-20">
             <div className="max-h-[480px] w-full max-w-[720px] flex-grow rounded-xl bg-neutral-1100 p-8 shadow-2xl">
+              <a href="https://api7.ai/apisix" target="_blank">Apache APISIX</a> is Apache Software Foundation's open-source API Gateway. It was created by <a href="https://api7.ai" target="_blank">API7.ai</a> in 2019.
+
               {process.env.NEXT_PUBLIC_PROJECT_KEY ? (
                 <Markprompt
                   onDark
