@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Markprompt Starter Template</title>
+        <title>Chat with Apache APISIX Docs</title>
         <meta
           name="description"
-          content="A starter template featuring the Markprompt React component"
+          content="The trained Apache APISIX Docs"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
