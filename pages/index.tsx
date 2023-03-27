@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex h-[calc(100vh-60px)] w-full flex-col items-center justify-center gap-12 px-8 pt-8 pb-20">
             <div className="max-h-[480px] w-full max-w-[720px] flex-grow rounded-xl bg-neutral-1100 p-8 shadow-2xl">
               <div className="prose prose-invert">
-                <a href="https://api7.ai/apisix" target="_blank">Apache APISIX</a> is Apache Software Foundation&apos;s open-source API Gateway. It was created by <a href="https://api7.ai" target="_blank">API7.ai</a> in 2019.
+                <a href="https://github.com/apache/apisix" target="_blank">Apache APISIX</a> is Apache Software Foundation&apos;s open-source API Gateway. It was created by <a href="https://api7.ai" target="_blank">API7.ai</a> in 2019.
                 <br /><br />
               </div>
 
